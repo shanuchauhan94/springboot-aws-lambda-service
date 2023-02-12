@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "firstlambdacli"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-16tr0jyfj74bs"
+s3_prefix = "firstlambdacli"
+region = "ap-south-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
+confirm_changeset = true
